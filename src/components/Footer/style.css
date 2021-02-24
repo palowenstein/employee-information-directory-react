@@ -1,0 +1,17 @@
+/* Stylesheet for Footer */
+
+.footerRow {
+  background-color: #183045;
+  min-height: 120px;
+  border-top: 8px solid #35bbb1;
+  bottom: 0;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.copyright {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 40px;
+}
