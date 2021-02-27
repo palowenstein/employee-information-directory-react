@@ -1,21 +1,10 @@
 import axios from "axios";
-
-// Export an object containing methods we'll use for accessing the /Dog.Ceo API/ Employee directory API.
+// Export an object containing methods we'll use for accessing the Employee directory API.
 
 export default {
-  // Retrieves all employees
-  getEmployees: function() {
-     return axios.get("https://randomuser.me/api/?results=100");
+  // Retrieves stock employees from axios return extracted from randomuser.me, employees folded into getStockEmployees function.
+  getStockEmployees: function() {
+     return axios.get('https://randomuser.me/api/?results=200');
    }
-
-  // getRandomDog: function() {
-  //   return axios.get("https://dog.ceo/api/breeds/image/random");
-  // },
-  // getDogsOfBreed: function(breed) {
-  //   return axios.get("https://dog.ceo/api/breed/" + breed + "/images");
-  // },
-  // getBaseBreedsList: function() {
-  //   return axios.get("https://dog.ceo/api/breeds/list");
-  // }
 
 };
