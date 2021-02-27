@@ -1,8 +1,6 @@
 # hw19-react-employee-directory-information-retriever
 Employee directory consultable at once, offering access to individual employee information.
 
-# Unit 19 React Homework: Employee Directory
-
 ## Overview
 • Create a employee directory with React.
 • Break up your application's UI into 1) components, 2) manage component state, 3) respond to user events.
