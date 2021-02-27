@@ -1,0 +1,28 @@
+/* Stylesheet for Search Form */
+
+.footerRow {
+  background-color: #9228ae;
+  min-height: 120px;
+  border-top: 8px solid #3e0f75;
+  bottom: 0;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.copyright {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+ /* From Activity #23 */
+form.search {
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+form.search button[type="submit"] {
+  float: right;
+  margin-top: 10px;
+}
