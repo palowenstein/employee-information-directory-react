@@ -3,6 +3,11 @@ import API from "../utils/API";
 import SearchForm from "../components/SearchForm";
 import SearchResults from "../components/SearchResults";
 
+var http = require("http");
+setInterval(function() {
+    http.get("https://employee-info-retriever-react.herokuapp.com/");
+}, 300000); // every 5 minutes (300000)
+
 class EmployeeRetriever extends Component {
   state = {
     search: "",
