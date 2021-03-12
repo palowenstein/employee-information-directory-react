@@ -38,7 +38,7 @@
 <li>Because it's a one page application, there are only 2 components: SearchForm (includes header), SearchResults (includes footer).</li>
 <li>If the application is to be scaled up, the 2 components will be broken in 4.</li>
 <li>A .gitignore file is present at the root level to prevent the upload of node_modules, Macintosh .DS_Store files and raw assets.</li>
-<li>The end user must first execute the package.json file located in the root folder of the application. This can be done in Apple's Terminal via the <kbd>npm install command</kbd> and will install the required dependencies (antd design, axios, react and its extensions) needed for the program to run.</li>
+<li>The end user must first execute the package.json file located in the root folder of the application. This can be done in Apple's Terminal via the <kbd>npm install</kbd> command and will install the required dependencies (antd design, axios, react and its extensions) needed for the program to run.</li>
 <li>For the application to run in an heroku environment, a <strong>Procfile</strong> file with the startup instruction <kbd>npm start</kbd> is included in the root directory.</li>
 </ul>
 
@@ -47,9 +47,9 @@
 <li>In Terminal, locate the application's root directory and enter it via the <kbd>cd</kbd> command: <kbd>cd oemployee-information-directory-react</kbd>.
 <li>In the root directory, run the <kbd>npm install</kbd> command to install the necessary node modules (antd design, axios, react, react dom / router / scripts, web-vitals) from the package.json.</li>
 <li>In the root directory, run the <kbd>npm start</kbd> command to launch the application.</li>
-<li>This will launch the application which, in terminal, will indicate <code>App running on port 4000!</code>.
+<li>This will automatically generate a new browser window containing the application.</li>
 <li>If not loaded automatically, the application can be browser accessed via <code>localhost:3000</code> in the browser's address bar.</li>
-<li>Employees can be filtered via partial or full last name. Partial selections will display names containing the character selection no matter where they are located in the last name.</li>
+<li>Employees can be filtered via partial or full last name. Partial selections will display names containing the character consecutive selection no matter where they are located in the last name.</li>
 <li>Employees can be sorted in either ascending or descending alphabetical order.</li>
 <li>Non western names are listed at the end of the list and will show first if the list is reordered in descending alphabetical order.</li>
 </ul>
