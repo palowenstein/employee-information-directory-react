@@ -27,7 +27,7 @@ const SearchForm = (props) => {
       color: "#ffffff",
       fontWeight: 600}}
       >
-      Enter full or partial name to retrieve employee or sort alphabetically.
+      Enter full or partial last name to retrieve employee information or sort/scroll alphabetically.
     </h6>
     
     <form className="search">

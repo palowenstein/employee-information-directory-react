@@ -38,7 +38,7 @@ const SearchResults = (props) => {
 
       <Row type="flex" align="middle" justify="center" className="footerRow">
       <Col span={24}>
-      <h6 className="copyright">&copy; 2021 Pierre Andr&eacute; Lowenstein for UCLA Coding Bootcamp.</h6>
+      <h6 className="copyright">&copy; 2021 Pierre Andr&eacute; Lowenstein, Soundtrack Specialist Inc.</h6>
       </Col>
       </Row>
 
